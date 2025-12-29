@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký hội viên</title>
+</head>
+
+<body>
+
+    <form action="" method="post">
+        <table cellpadding="5">
+            <tr>
+                <td>Họ và tên:</td>
+                <td><input type="text" name="ho_va_ten" id="ho_va_ten" size="35"></td>
+            </tr>
+
+            <tr>
+                <td>Ngày sinh:</td>
+                <td><input type="date" name="ngay_sinh" id="ngay_sinh"></td>
+            </tr>
+
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                    <input type="radio" name="gioi_tinh" id="Nam" value="Nam">
+                    <label for="Nam">Nam</label>
+                    <input type="radio" name="gioi_tinh" id="Nu" value="Nu">
+                    <label for="Nu">Nữ</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Số điện thoại:</td>
+                <td><input type="tel" name="so_dien_thoai" id="so_dien_thoai" size="35"></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" id="email" size="35"></td>
+            </tr>
+
+            <tr>
+                <td>Tên công ty:</td>
+                <td><input type="text" name="ten_cong_ty" id="ten_cong_ty" size="35"></td>
+            </tr>
+
+            <tr>
+                <td>Vai trò trong công ty:</td>
+                <td>
+                    <select name="vai_tro_trong_cong_ty" id="vai_tro_trong_cong_ty">
+                        <option>Giám đốc điều hành (CEO)</option>
+                        <option>Quản lý</option>
+                        <option>Nhân viên</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Quy mô công ty:</td>
+                <td>
+                    <select name="quy_mo_cong_ty" id="quy_mo_cong_ty">
+                        <option>Doanh nghiệp nhỏ</option>
+                        <option>Doanh nghiệp vừa</option>
+                        <option>Tập đoàn lớn</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Ngành nghề công ty:</td>
+                <td><input type="text" name="nganh_nghe_cong_ty" id="nganh_nghe_cong_ty" size="35"></td>
+            </tr>
+
+            <tr>
+                <td>Lý do tham gia câu lạc bộ:</td>
+                <td>
+                    <textarea name="ly_do_tham_gia_cau_lac_bo" id="ly_do_tham_gia_cau_lac_bo" cols="45"
+                        rows="2"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Kinh nghiệm lãnh đạo:</td>
+                <td>
+                    <textarea name="kinh_nghiem_lanh_dao" id="kinh_nghiem_lanh_dao" cols="45" rows="2"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mục tiêu khi tham gia câu lạc bộ:</td>
+                <td>
+                    <textarea name="muc_tieu_khi_tham_gia_cau_lac_bo" id="muc_tieu_khi_tham_gia_cau_lac_bo" cols="45"
+                        rows="2"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Chương trình sự kiện mong muốn tham gia:</td>
+                <td>
+                    <input type="checkbox" name="chuong_trinh" id="Networking" value="Networking">
+                    <label for="Networking">Networking</label>
+                    <input type="checkbox" name="chuong_trinh" id="Workshops" value="Workshops">
+                    <label for="Workshops">Workshops</label>
+                    <input type="checkbox" name="chuong_trinh" id="Hoi_thao" value="Hoi_thao">
+                    <label for="Hoi_thao">Hội thảo</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Đăng ký nhận bản tin:</td>
+                <td>
+                    <input type="checkbox" name="dang_ky_nhan_ban_tin" id="Co" value="Co">
+                    <label for="Co">Có</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Đăng ký hội viên">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>

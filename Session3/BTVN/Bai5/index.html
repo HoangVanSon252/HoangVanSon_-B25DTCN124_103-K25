@@ -1,0 +1,88 @@
+<form action="" method="post">
+    <table cellpadding="5">
+        <tr>
+            <td>Họ và tên:</td>
+            <td><input type="text" name="ho_ten" id="ho_ten" size="35"></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh:</td>
+            <td><input type="date" name="ngay_sinh" id="ngay_sinh_tv"></td>
+        </tr>
+        <tr>
+            <td>Giới tính:</td>
+            <td>
+                <input type="radio" name="gioi_tinh" id="Nam_TV" value="Nam">
+                <label for="Nam_TV">Nam</label>
+                <input type="radio" name="gioi_tinh" id="Nu_TV" value="Nu">
+                <label for="Nu_TV">Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Số điện thoại:</td>
+            <td><input type="tel" name="dien_thoai" id="dien_thoai" size="35"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="thu_dien_tu" id="thu_dien_tu" size="35"></td>
+        </tr>
+        <tr>
+            <td>Địa chỉ:</td>
+            <td><textarea name="dia_chi" id="dia_chi" cols="45" rows="2"></textarea></td>
+        </tr>
+        <tr>
+            <td>Vai trò trong nhóm:</td>
+            <td>
+                <select name="vai_tro" id="vai_tro">
+                    <option>Thành viên</option>
+                    <option>Trưởng nhóm</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Sở thích:</td>
+            <td><input type="text" name="so_thich" id="so_thich" size="35"></td>
+        </tr>
+        <tr>
+            <td>Kỹ năng:</td>
+            <td><textarea name="ky_nang" id="ky_nang" cols="45" rows="2"></textarea></td>
+        </tr>
+        <tr>
+            <td>Thời gian rảnh:</td>
+            <td>
+                <input type="checkbox" name="thoi_gian" id="Sang" value="Sang">
+                <label for="Sang">Sáng</label>
+                <input type="checkbox" name="thoi_gian" id="Chieu" value="Chieu">
+                <label for="Chieu">Chiều</label>
+                <input type="checkbox" name="thoi_gian" id="Toi" value="Toi">
+                <label for="Toi">Tối</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Lý do tham gia nhóm:</td>
+            <td><textarea name="ly_do" id="ly_do" cols="45" rows="2"></textarea></td>
+        </tr>
+        <tr>
+            <td>Màu yêu thích:</td>
+            <td><input type="color" name="mau_sac" id="mau_sac"></td>
+        </tr>
+        <tr>
+            <td>Đăng ký nhận bản tin:</td>
+            <td>
+                <input type="checkbox" name="ban_tin" id="Co" value="Co">
+                <label for="Co">Có</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Nhận thông báo qua email:</td>
+            <td>
+                <input type="radio" name="thong_bao" id="nhan_Email" value="Email">
+                <label for="nhan_Email">Email</label>
+                <input type="radio" name="thong_bao" id="nhan_SMS" value="SMS">
+                <label for="nhan_SMS">SMS</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Đăng ký thành viên"></td>
+        </tr>
+    </table>
+</form>
