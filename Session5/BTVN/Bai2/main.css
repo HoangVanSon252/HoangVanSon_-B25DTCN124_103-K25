@@ -1,0 +1,21 @@
+.footer {
+    text-wrap: nowrap;
+    background-color: #7fbaf5;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer ul{
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.footer ul li{
+    padding: 0 10px;
+}
+.footer ul li:nth-last-child(2){
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}

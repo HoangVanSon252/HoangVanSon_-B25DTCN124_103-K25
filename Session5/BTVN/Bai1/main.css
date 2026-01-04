@@ -1,0 +1,16 @@
+header nav{
+    color: black;
+    text-align: center;
+    padding: 5px;
+    background-color: #1eff29;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+header nav h1{
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+header nav span{
+    font-weight: 500;
+    text-transform: none;
+}

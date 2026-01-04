@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background: white;
+    padding: 30px;
+}
+
+.section-title {
+    color: #1e90ff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.doctor-card {
+    background-color: #e6f7ff;
+    padding: 20px 0 10px 0;
+    margin-bottom: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.doctor-card:hover {
+    background-color: #d0efff;
+}
+
+.doctor-img {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.doctor-info h3 {
+    color: #1e90ff;
+    margin: 15px 0 5px 0;
+}
+
+.doctor-info p {
+    color: #555;
+    font-size: 14px;
+}
+
+.services-list p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    width: 80%;
+}

@@ -1,0 +1,36 @@
+*{
+    font-family: sans-serif;
+}
+main{
+    text-align: center;
+    
+}
+h2{
+    color: #1e90ff;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 7px;
+    width: 200px;
+    margin: 0 auto;
+    align-items: center;
+}
+main form input,
+main form textarea{
+    border: 1px solid #1e90ff;
+    padding: 10px;
+}
+main form textarea{
+    width: 150px;
+}
+main form input:last-child{
+    margin: 20px auto;
+    border: 2px solid black;
+    background-color: #1e90ff;
+    color: white;
+    font-weight: 700;
+    padding: 0;
+    font-size: 15px;
+}

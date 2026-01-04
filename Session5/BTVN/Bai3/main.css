@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif;
+}
+#dich-vu{
+    background-color: #f4f4f9;
+    padding: 10px;
+}
+.head span{
+    display: block;
+    margin: 5px;
+}
+.head span:first-child{
+    color: #1e90ff;
+    font-size: 30px;
+    font-weight: 600;
+}
+.head{
+    text-align: center;
+}
+.content p:nth-child(1){
+    text-decoration: line-through underline;
+}
+.content p:nth-child(2) {
+    font-weight: 700;
+}
+.content p:nth-child(4) {
+    font-size: 20px;
+}

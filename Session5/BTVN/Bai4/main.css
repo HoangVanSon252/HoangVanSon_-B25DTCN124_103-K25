@@ -1,0 +1,15 @@
+*{
+    font-family: sans-serif;
+}
+main{
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+#gioi-thieu span,
+#lien-he span{
+    text-align: center;
+    display: block;
+    color: #1e90ff;
+    font-size: 20px;
+    font-weight: 600;
+}
