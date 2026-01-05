@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+main{
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #f0f7f9;
+    width: 400px;
+}
+ul{
+    list-style-type: none;
+}
+ul li:hover a{
+    color: brown;
+}
+ul li a::after{
+    content: "\2192";
+    margin-left: 10px;
+}

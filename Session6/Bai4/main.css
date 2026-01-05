@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#card-container{
+    max-width: 500px;
+    padding: 20px;
+}
+.card{
+    border-radius: 5px;
+    padding: 10px;
+}
+.card:nth-child(1){
+    background-color: #dbd8d8;
+}
+.card:nth-child(3) {
+    background-color: #dbd8d8;
+}
+.card:nth-child(2) {
+    background-color: rgb(177, 177, 249);
+}
+.card + .card{
+    margin: 10px 0;
+}
+.card h3, p{
+    font-size: 15px;
+    margin: 5px 0;
+}
+.card p::after{
+    content: "đ";
+    font-size: 13px;
+}
+.card:hover{
+    background-color: aqua;
+}

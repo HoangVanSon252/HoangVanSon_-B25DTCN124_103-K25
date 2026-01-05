@@ -1,0 +1,60 @@
+body {
+    padding: 10px;
+}
+
+#name-title {
+    margin: 0 auto;
+}
+
+#name-title h1 {
+    background-color: aqua;
+    color: rgb(2, 118, 80);
+    padding: 5px;
+    text-align: center;
+    margin: 20px 0px;
+    text-wrap: nowrap;
+}
+
+#nav-header {
+    background-color: rgb(219, 247, 254);
+    margin: 0px 0px 20px 0px;
+}
+
+#nav-list-header {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 15px;
+}
+
+#nav-list-header a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(60, 60, 227);
+}
+
+#nav-list-header a:hover {
+    background-color: rgb(1, 197, 197);
+    transition: 0.3s ease-in-out;
+    color: #fff;
+}
+.table table{
+    width: 100%;
+}
+table th{
+    background-color: rgb(171, 234, 250);
+    color: rgb(39, 103, 119);
+}
+table, th, td{
+    border: 1px solid #595959;
+}
+footer {
+    background-color: rgb(1, 110, 110);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin-top: 20px;
+}
