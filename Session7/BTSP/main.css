@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+    background: linear-gradient(90deg, #0a192f 0%, #0d47a1 50%, #1976d2 100%);
+    color: #fff;    
+    padding: 40px 200px;
+}
+.content-banner{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.name-clinic{
+    width: 230px;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    text-align: center;
+}
+.slogan{
+    font-size: 23px;
+}
+.information p{
+    opacity: 0.8;
+}
+.btn-banner button{
+    border: 0;
+    padding: 15px;
+    background-color: #1976d2;
+    border-radius: 25px;
+}
+.btn-banner button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+.btn-banner button:hover{
+    transform: translateY(-2px);
+    transition: 0.3s ease-in-out;
+}
+.btn-banner button:last-child:hover{
+    background: rgba(255, 255, 255, 0.15);
+}
+.btn-banner button:first-child:hover {
+    opacity: 0.95;
+}
+.card-item{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 200px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+}
+.number-card{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-item:hover{
+    transform: translateY(-4px);
+    transition: 0.3s ease-in-out;
+}
+.content-card{
+    font-size: 14px;
+    opacity: 0.8;
+}
+.main-content{
+    padding: 60px 200px;    
+}
+.service{
+    margin: 30px 0;
+}
+.service h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-wrap: nowrap;
+    margin-bottom: 15px;
+}
+.service p{
+    text-wrap: nowrap;
+    font-size: 15px;
+}
+.card-content {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 24px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    border: 1px solid #f1f3f4;
+}
+.card-content:hover{
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+.header-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.header-card span:first-child {
+    font-weight: 700;
+    font-size: 18px;
+    color: #0a192f;
+}
+
+.header-card span:last-child {
+    background-color: #e3f2fd;
+    color: #1976d2;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: 2px solid #bbdefb;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+}
+
+.tile-card {
+    color: #5f6368;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.time-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.time-card ul li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 6px;
+    color: #3c4043;
+    font-size: 15px;
+}
+
+.time-card ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #0a192f;
+}
+
+.show-price a {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.show-price a:hover {
+    transform: translateX(4px);
+    transition: 0.3s ease-in-out;
+}
+footer{
+    margin: 10px 200px;
+}

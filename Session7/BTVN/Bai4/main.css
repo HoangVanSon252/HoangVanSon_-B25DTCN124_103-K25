@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: #ccc;
+    width: 950px;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+}
+.card-section{
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.card-section .header-card{
+    color: rgb(0, 199, 213);
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}

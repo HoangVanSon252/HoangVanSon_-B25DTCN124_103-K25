@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="khung-bieu-mau">
+        <h1 class="tieu-de-chinh">Biểu Mẫu Feedback Phòng Khám Nha Khoa</h1>
+    
+        <form class="noi-dung-bieu-mau">
+            <div class="nhom-nhap-lieu">
+                <label class="nhan-nhap-lieu">Họ và tên</label>
+                <input type="text" class="o-nhap-lieu" placeholder="Nhập họ tên" required>
+            </div>
+    
+            <div class="nhom-nhap-lieu">
+                <label class="nhan-nhap-lieu">Email</label>
+                <input type="email" class="o-nhap-lieu" placeholder="example@gmail.com" required>
+            </div>
+    
+            <div class="nhom-nhap-lieu">
+                <label class="nhan-nhap-lieu">Dịch vụ đã sử dụng</label>
+                <select class="o-chon-lua">
+                    <option>Khám răng tổng quát</option>
+                    <option>Niềng răng</option>
+                    <option>Tẩy trắng răng</option>
+                </select>
+            </div>
+    
+            <div class="nhom-nhap-lieu">
+                <label class="nhan-nhap-lieu">Mức độ hài lòng</label>
+                <select class="o-chon-lua">
+                    <option>Rất hài lòng</option>
+                    <option>Hài lòng</option>
+                    <option>Bình thường</option>
+                    <option>Không hài lòng</option>
+                </select>
+            </div>
+    
+            <div class="nhom-nhap-lieu">
+                <label class="nhan-nhap-lieu">Nội dung phản hồi</label>
+                <textarea class="vung-van-ban" required rows="5" placeholder="Hãy cho chúng tôi biết cảm nhận của bạn..."></textarea>
+            </div>
+    
+            <button type="submit" class="nut-gui">Gửi feedback</button>
+        </form>
+    </div>
+</body>
+</html>

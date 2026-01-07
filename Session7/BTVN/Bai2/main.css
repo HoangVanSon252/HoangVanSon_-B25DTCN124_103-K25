@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.service-card{
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #1eff29;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+h2{
+    margin: 10px
+}

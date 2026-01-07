@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#card{
+    border: 1px solid black;
+    margin: 10px;
+    width: 400px;
+
+}
+.header-card{
+    padding: 10px;
+    font-size: 18px;
+}
+.header-card i{
+    color: rgb(206, 206, 2);
+}.header-card span{
+    color: rgb(255, 153, 0);
+    font-weight: 700;
+}
+.card-img img{
+    width: 100%;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 700;
+}
+.position{
+    color: rgb(109, 248, 67);
+    font-size: 18px;
+    font-weight: 600;
+}
