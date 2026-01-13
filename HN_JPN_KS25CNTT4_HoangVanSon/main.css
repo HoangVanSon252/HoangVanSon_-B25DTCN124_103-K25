@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 1px;
+    box-sizing: border-box;
+    font-family: cursive;
+    color: #92400e;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 20px;
+}
+header .top-header{
+    background-color: #fde68a;
+    text-align: center;
+}
+header .nav-header{
+    background-color: #fed7aa;
+}
+.nav-header .menu-header{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5px;
+}
+.nav-header .menu-header li{
+    border-right: 2px solid;
+}
+.nav-header .menu-header li:last-child{
+    border: none;
+}
+.nav-header .menu-header li a{
+    text-decoration: none;
+    margin: 7px;
+    font-weight: 700;
+    
+}
+.img-content{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #fff7ed;
+}
+.img-content img{
+    width: 500px;
+}
+.section{
+    background-color: #fff7ed;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff7ed;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section .title{
+
+}
+.content-section p{
+    color: black;
+}
+
+.list-doctor li,
+.list-achievements li{
+    color: black;
+    margin-left: 40px;
+}
