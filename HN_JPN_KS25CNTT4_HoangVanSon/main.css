@@ -37,6 +37,10 @@ header .nav-header{
     font-weight: 700;
     
 }
+.nav-header .menu-header li a:hover{
+    background-color: brown;
+    color: #fff;
+}
 .img-content{
     width: 100%;
     height: 100%;
@@ -57,9 +61,6 @@ header .nav-header{
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-.section .title{
-
 }
 .content-section p{
     color: black;
