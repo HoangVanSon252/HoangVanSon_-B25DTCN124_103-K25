@@ -64,9 +64,22 @@ header .nav-header{
 .content-section p{
     color: black;
 }
-
+.list-doctor li:hover{
+    background-color: #78350f;
+    color: yellow;
+}
 .list-doctor li,
 .list-achievements li{
     color: black;
     margin-left: 40px;
+}
+footer{
+    text-align: center;
+    background-color: #78350f;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.name-footer, .hotline-footer{
+    color: #fff7ed;
 }
