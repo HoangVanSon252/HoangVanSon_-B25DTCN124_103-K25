@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+        scroll-behavior: smooth;
+}
+body{
+        background-color: #bef6b7;
+}
+.banner-head{
+    background-image: url(./img/photo-1574629810360-7efbbe195018.jfif);
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+header h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+header h1:hover{
+    color: blue;
+}
+.nav-head{
+    background-color: #1a472a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.list-menu-head{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px 0;
+    
+}
+.list-menu-head li{
+    padding: 15px;
+    margin: 0 10px;
+    border-radius: 10px;
+    transition: ease-in-out 0.3s ;
+}
+.list-menu-head li:hover{
+    background-color: #399057;
+    text-decoration: underline white;
+}
+.list-menu-head li a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    margin: 0 300px;
+
+}
+.main-banner{
+    background-image: url(./img/photo-1431324155629-1a6deb1dec8d.jfif);
+    margin: 20px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.main-bannner-img img{
+    width: 390px;
+    height: 500px;
+    border-radius: 10px;
+    transition: all 0.6s ease-in-out;
+    margin-top: 90px;
+}
+.main-bannner-img:hover img{
+    transform: scale(1.1);
+    
+}
+.text-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 80px;
+}
+.text-banner span{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.text-banner span:first-child{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin-bottom: 25px;
+    scroll-margin-top: 90px;
+}
+.content-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text-content-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text-content-section p{
+    opacity: 0.8;
+    color: #668e65;
+}
+.title-section h2{
+    font-size: 30px;
+    margin: 20px 10px;
+}
+.bottom-content-section{
+    background-color: #fff3cd;
+    color: #668e65;
+    padding: 25px;
+    border-radius: 5px;
+    font-weight: 400;
+    border-left: 5px solid yellow
+}
+.title2{
+    border-right: 5px solid #1a3c2b;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead th{
+    background-color: #1a3c2b;
+    color: white;
+    text-align: left;
+    padding: 12px 15px;
+}
+tbody td {
+    padding: 10px 15px;
+    border: none;
+    color: #668e65;
+}
+td:nth-child(1),
+td:nth-child(4) {
+    text-align: left;
+}
+tbody tr {
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid rgba(102, 142, 101,0.3);
+}
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.title-list{
+    font-size: 20px;
+    color: #2d8659;
+    margin: 30px 0 20px;
+    font-weight: 600;
+}
+.list-content ul{
+    margin-left: 40px;
+}
+.list-content ul li{
+    color: #668e47;
+    padding: 20px 0;
+    border-bottom: 1px dotted #668e47;
+}
+
+#thanh-tich {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    color: #333;
+}
+
+#thanh-tich h2 {
+    color: #1a4332;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#thanh-tich table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+#thanh-tich thead {
+    background-color: #1a4332;
+    color: #ffffff;
+}
+
+#thanh-tich th {
+    padding: 12px;
+    border: 1px solid #3a5f4e;
+    font-weight: 600;
+}
+
+#thanh-tich td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#thanh-tich tbody tr:last-child td {
+    background-color: #f8f9fa;
+    color: #1a4332;
+    font-size: 1.1rem;
+    border-top: 2px solid #ddd;
+}
+
+.info-box {
+    background-color: #fff9db;
+    border-left: 5px solid #ffcc00;
+    padding: 15px;
+    border-radius: 4px;
+    line-height: 1.6;
+}
+.info-box strong {
+    color: #856404;
+}
+
+#dang-ky {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+#dang-ky h2 {
+    color: #1a4332;
+    border-bottom: 3px solid #8bc34a;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#dang-ky p {
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+#dang-ky form {
+    background-color: #adc0ff;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#dang-ky input[type="text"],
+#dang-ky input[type="email"],
+#dang-ky select,
+#dang-ky textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#dang-ky textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    color: #ffffff;
+}
+
+.checkbox-group label {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+#dang-ky button[type="submit"] {
+    background-color: #1a4332;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+    transition: background 0.3s ease;
+}
+
+#dang-ky button[type="submit"]:hover {
+    background-color: #265c45;
+}
+
+footer {
+    background-color: #1a4332;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #8bc34a;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
