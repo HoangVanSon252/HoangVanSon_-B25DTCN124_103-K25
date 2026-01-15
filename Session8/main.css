@@ -72,6 +72,7 @@ footer{
     background-color: #0f172a;
     text-align: center;
     padding: 15px;
+    border-radius: 20px 20px 0 0;
 }
 .information-footer p{
     color: #fff;
