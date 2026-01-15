@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #f1f5f9;
+}
+.top-head{
+    background-color: #0ea5e9;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 30px 30px;
+    padding: 40px;
+}
+.top-head h1{
+    margin-bottom: 20px;
+}
+.nav-head{
+    background-color:#e0f2fe;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 20px;
+}
+.menu-nav .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    list-style-type: none;
+    color: #0284c7;
+}
+.list li{
+    margin: 0 10px;
+    padding: 7px;
+    font-weight: 700;
+}
+.list li:hover{
+    background-color: #0284c7;
+    color: white;
+    border-radius: 10px;
+    transform: scale(1.1);
+    margin: 0 13px;
+}
+main{
+    margin: 20px;
+}
+.section{
+    padding: 40px 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+.section h2{
+    margin-bottom: 20px;
+}
+.uy-tin{
+    border-left: 7px solid #0ea5e9;
+}
+.menu-list-section ul{
+    list-style-type: none;
+}
+.menu-list-section ul li{
+    margin: 10px 0;
+}
+.menu-list-section ul li::before{
+    content: "❤️";
+}
+footer{
+    background-color: #0f172a;
+    text-align: center;
+    padding: 15px;
+}
+.information-footer p{
+    color: #fff;
+    margin: 17px;
+    font-weight: 600;
+}
