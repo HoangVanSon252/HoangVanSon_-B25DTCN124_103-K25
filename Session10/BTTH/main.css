@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f7f5f0;
+    /* Màu nền kem nhạt */
+}
+
+/* Phần Đầu Trang */
+.dau-trang {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px 0;
+}
+
+.khung-chua {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Căn giữa trang */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #f1c40f;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Phần Nội Dung Chính */
+.noi-dung-chinh {
+    padding: 50px 0;
+}
+
+.danh-sach-mon-an {
+    display: flex;
+    gap: 30px;
+    /* Khoảng cách giữa các thẻ */
+}
+
+.the-mon-an {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* Tạo bóng mờ */
+    flex: 1;
+    /* Chia đều 3 cột */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tieu-de-mon {
+    color: #e6b800;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.mo-ta {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.hinh-anh {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Phần Chân Trang */
+.chan-trang {
+    background-color: #2c2c2c;
+    color: #aaa;
+    padding: 20px 0;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.chan-trang .khung-chua {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lien-ket-footer a {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 15px;
+}
