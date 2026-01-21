@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+.faq-section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #e0e7ff;
+    color: #6366f1;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+
+.faq-header h2 {
+    font-size: 36px;
+    color: #1e293b;
+    margin-bottom: 12px;
+}
+
+.faq-header p {
+    font-size: 18px;
+    color: #64748b;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.faq-item {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+}
+
+
+.question {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    color: #334155;
+    transition: 0.3s;
+}
+
+
+.answer {
+    padding: 0 20px 20px 20px;
+    color: #475569;
+    line-height: 1.6;
+    display: none;
+
+}
+
+.faq-item.active .question {
+    background-color: #6366f1;
+    /* Nền tím */
+    color: #ffffff;
+    /* Chữ trắng */
+}
+.faq-item.active .answer {
+    display: block;
+}
+
+.faq-item.active .question i {
+    transform: rotate(180deg);
+}
+@media (max-width: 768px) {
+    .faq-section {
+        padding: 40px 16px;
+    }
+
+    .faq-header h2 {
+        font-size: 28px;
+    }
+
+    .faq-header p {
+        font-size: 16px;
+    }
+}

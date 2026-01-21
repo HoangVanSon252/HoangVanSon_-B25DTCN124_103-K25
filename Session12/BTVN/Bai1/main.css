@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.logo {
+    font-size: 25px;
+    color: #98a3eb;
+    text-wrap: nowrap;
+}
+
+.active {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.right-header {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+#checkbox-menu{
+    font-size: 25px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        display: none;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    height: 100%;
+    align-items: center;
+}
+.nav-menu li a::after{
+    content: '';
+    width: 0%;
+    height: 4px;
+    display: block;
+    background-color: #0d6efd;
+    border-radius: 10px;
+    opacity: 0.7;
+    transition: 0.3s ease-in-out;
+}
+.nav-menu li:hover a::after{
+    width: 100%;
+}
+.nav-menu li a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #767c85;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+.nav-menu li a:hover{
+    color: #0d6efd;
+}
+.btn-nav button {
+    padding: 10px 20px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-wrap: nowrap;
+}
+.btn-nav button:hover{
+    opacity: 0.7;
+    color: #01d2fb;
+}
+@media (max-width: 1024px){
+    .active{
+        display: block;
+        right: 50px;
+    }
+    .header:has(#checkbox-menu:checked) .right-header{
+        transform: scaleY(1);
+
+    }
+    .nav-menu{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header{
+        position: relative;
+        justify-content: left;
+        padding: 20px 50px;
+    }
+    .right-header{
+        transform: scaleY(0);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: antiquewhite;
+        width: 100%;
+        transition: .3s ease-in-out;
+        transform-origin: top;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .btn-nav{
+        margin: 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+}
