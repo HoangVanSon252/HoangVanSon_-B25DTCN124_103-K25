@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: auto;
+}
+.card-section {
+    width: 1200px;
+    height: auto;
+    margin: 100px auto;
+}
+
+.title-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.title-card span:first-child {
+    font-size: 30px;
+    font-weight: 500;
+    color: #111111;
+}
+.title-card span:last-child {
+    font-size: 20px;
+    color: rgba(73, 187, 189, 1);
+    cursor: pointer;
+    font-weight: 700;
+}
+.card{
+    display: flex;
+    gap: 30px;
+}
+.item-card {
+    width: 374px;
+    height: auto;
+    border: 1px solid rgba(217, 217, 217, 1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.img-card {
+    width: 100%;
+}
+.img-card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content {}
+
+.icon-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon-left {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 10px;
+    color: rgba(105, 105, 132, 1);
+}
+
+.icon-right {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: rgba(105, 105, 132, 1);
+    font-weight: 500;
+    gap: 10px;
+}
+
+.title-card h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(37, 38, 65, 1);
+}
+.text-card{
+    font-size: 18px;
+    color: rgba(105, 105, 132, 1);
+    font-weight: 400;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.footer-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+.use-card {
+
+}
+.use-card img{
+    width: 44px;
+    height: 44px;
+}
+.use-card span{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+
+.price span:first-child{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+.price span:last-child{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(73, 187, 189, 1)
+}
