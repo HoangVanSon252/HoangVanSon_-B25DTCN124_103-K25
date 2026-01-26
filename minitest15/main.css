@@ -99,7 +99,9 @@ section{
 }
 
 .use-card {
-
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 .use-card img{
     width: 44px;
