@@ -1,6 +1,7 @@
-let students = ['Nam', 'Lan', 'Hùng', 'Nam'];
-console.log(students);
-let studentsNguoc = students.reverse();
+let students = "Nam, Lan, Hùng, Nam";
+let arr = new Array(students);
+console.log(arr);
+let studentsNguoc = arr.reverse();
 console.log(studentsNguoc);
 //không thay dổi độ dày chuỗi
 
