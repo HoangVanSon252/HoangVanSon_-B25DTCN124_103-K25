@@ -20,7 +20,7 @@ kiemDinh(revenues);
 //Cach 1
 let netProfits = [];
 const tinhToan = (revenue) =>{
-    console.log('Kết quả');
+    console.log('Lợi nhuận ròng:');
     let loiNhuanRong = revenue.forEach(el => {
         el = el * 0.9;
         netProfits.push(el);
@@ -30,7 +30,7 @@ const tinhToan = (revenue) =>{
 tinhToan(revenues);
 
 //Cách 2
-console.log('Kết quả cách 2:');
+console.log('Lợi nhuận ròng:');
 
 let netProfit = revenues.map(el => el * 0.9);
 console.log(netProfit);
