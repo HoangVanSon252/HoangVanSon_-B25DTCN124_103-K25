@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #product-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+
+        }
+
+        .product {
+            display: block;
+            width: auto;
+            height: auto;
+            border: 1px solid black;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .price {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Danh sách sản phẩm chợ tết</h1>
+        <ul id="product-list">
+        </ul>
+        <form action="" id="product-form">
+            <input type="text" name="" id="product-name" placeholder="Tến sản phẩm">
+            <input type="number" name="" id="product-price" placeholder="Giá (VND)">
+            <button type="submit">Thêm sản phẩm</button>
+        </form>
+    </section>
+    <script src="./main.js"></script>
+</body>
+
+</html>
