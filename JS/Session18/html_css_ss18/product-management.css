@@ -26,6 +26,7 @@ body {
     opacity: 0;
     transform: translateY(-30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -243,6 +244,7 @@ tbody tr {
     opacity: 0;
     transform: translateX(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -426,6 +428,7 @@ tbody td {
 }
 
 @media (max-width: 480px) {
+
   thead th:nth-child(1),
   tbody td:nth-child(1),
   thead th:nth-child(6),
