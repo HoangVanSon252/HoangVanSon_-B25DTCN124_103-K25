@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- form input -->
+    <form action="" id="form" style="display: none;">
+        <input type="text" name="" id="fullname" placeholder="Ho ten">
+        <div class="">
+            <input value = "MALE" type="radio" name="gender" id="">Nam
+            <input value = "FEMALE" type="radio" name="gender" id="">Nữ
+            <input checked value = "OTHER" type="radio" name="gender" id="">Khác
+        </div>
+        <div class="">
+            <input checked value = "ACTIVE" type="radio" name="status" id="">Ngừng hoạt động
+            <input value = "INACTIVE" type="radio" name="status" id="">Đang hoạt động 
+        </div>
+        <input type="date" name="" id="date-birth">
+        <button type="button" id="btn-close">Hủy</button>
+        <button type="submit">Thêm</button>
+    </form>
+    <br>
+    <button id="btn-add">Thêm mới</button>
+    <!-- Bảng render -->
+    <table border="1" width = 100% >
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Status</th>
+                <th>Date</th>
+                
+                <th colspan="2">Function</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+    </table>
+    <div id="btn-page">
+        
+    </div>
+
+    <script src="./condition.js">
+        
+
+    </script>
+</body>
+</html>
